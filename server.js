@@ -2,7 +2,7 @@
 const express  = require('express')
 const {MongoClient} = require('mongodb')
 const serverApp = express();
-const connectionString ='mongodb+srv://dbAdmin:dbPassword@cluster0.t5ziz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const connectionString ='mongodb+srv://user:Password@cluster0.t5ziz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const bodyParser = require("body-parser");
 require('./dotenv')
 
